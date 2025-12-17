@@ -131,7 +131,20 @@
             margin-top: 10px;
             color: #fff;
         }
-
+        .initials {
+        font-family: 'Playfair Display', serif;
+        font-size: 4rem; /* passt sich Bildschirm an */
+        font-weight: bold;
+        letter-spacing: 0.5rem;
+        color: #fff;
+        text-align: center;
+        }
+        .heart {
+        width: 1em;       /* passt sich Schriftgröße an */
+        height: 1em;
+        vertical-align: middle;
+        margin: 0 0.2em;  /* Abstand zu A und M */
+        }
         /* Zusätzliche Abstände */
         .extra-space  { display: block; height: 40px; }
         .extra-space1 { display: block; height: 25px; }
@@ -232,13 +245,14 @@
             <!--div class="initials">A<span class="symbol"></span>M</div-->
             <div class="initials">
             A
-            <svg width="30" height="50" viewBox="0 0 32 29.6" style="vertical-align:middle;">
-    <path fill="white" d="M16 29s-12-9-12-17c0-4.5 3.5-8 8-8 
-      2.5 0 4.8 1.4 6.3 3.5 1.5-2.1 3.8-3.5 6.3-3.5 4.5 0 8 3.5 8 8 
-      0 8-12 17-12 17z"/>
+            <svg class="heart" viewBox="0 0 32 29.6" xmlns="http://www.w3.org/2000/svg">
+    <path fill="white" d="M16 29s-11-8-11-16c0-4.2 3.3-7.6 7.5-7.6 
+      2.4 0 4.6 1.3 6.1 3.2 1.5-1.9 3.7-3.2 6.1-3.2 4.2 0 7.5 3.4 7.5 7.6 
+      0 8-11 16-11 16z"/>
       </svg>
       M
       </div>
+
 
     
             <div class="sub">Save the Date</div>
