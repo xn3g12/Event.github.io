@@ -230,13 +230,17 @@
             <!--div class="initials">A<span class="symbol"></span>M</div-->
             <div class="initials">
             A
-            <svg width="50" height="50" viewBox="0 0 32 29.6" xmlns="http://www.w3.org/2000/svg" style="vertical-align:middle;">
-    <path fill="white" d="M23.6,0c-2.9,0-5.4,1.7-6.6,4.1C15.8,1.7,13.3,0,10.4,0
-      C4.7,0,0,4.7,0,10.4c0,6.2,5.3,11.3,13.3,18.4l2.7,2.3l2.7-2.3C26.7,21.7,32,16.6,32,10.4
-      C32,4.7,27.3,0,23.6,0z"/>
+            <svg width="50" height="50" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" style="vertical-align:middle;">
+    <path fill="white" d="M471.701,73.216c-54.585-46.521-136.223-38.963-186.947,13.1
+      L256,115.207l-28.754-28.891c-50.724-52.062-132.362-59.621-186.947-13.1
+      C7.889,117.061-10.04,190.59,21.703,251.446
+      c32.129,62.423,121.939,139.37,234.297,229.031
+      c112.357-89.661,202.167-166.608,234.297-229.031
+      C522.04,190.59,504.111,117.061,471.701,73.216z"/>
       </svg>
       M
       </div>
+
     
             <div class="sub">Save the Date</div>
             <div class="sub">20/03/2026</div>
