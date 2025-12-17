@@ -139,7 +139,8 @@
         }
         .letter {
         font-family: 'Allura', cursive;
-        font-size: 90px;
+        font-size: 100px;
+        letter-spacing: 5px;
         color: #fff;
         }
         .heart {
