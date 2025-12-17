@@ -132,24 +132,26 @@
             color: #fff;
         }
         .initials {
-        font-family: 'Playfair Display', serif; /* Standard für Buchstaben */
-        font-size: 80px;
-        font-weight: bold;
-        letter-spacing: 10px;
-        color: #fff;
         display: inline-flex;
         align-items: center; /* Herz vertikal zentrieren */
+        justify-content: center;
         }
         .letter {
-        font-family: 'Great Vibes', cursive; 
+        font-family: 'Great Vibes', cursive; /* kursive Schrift */
+        font-size: 90px;  /* etwas größer */
+        font-weight: bold;
+        text-transform: uppercase; /* Großbuchstaben */
+        letter-spacing: 15px;      /* etwas breiter */
+        color: #fff;
         }
         .heart {
-        width: 40px;    /* bleibt fix */
-        height: 40px;   /* bleibt fix */
-        vertical-align: middle; /* zentriert mit Buchstaben */
+        width: 40px;
+        height: 40px;
+        flex-shrink: 0;       /* Herz wird nicht gestaucht */
         margin: 0 10px;
-        flex-shrink: 0; /* verhindert, dass Herz gestaucht wird */
+        vertical-align: middle;
         }
+
         /* Zusätzliche Abstände */
         .extra-space  { display: block; height: 40px; }
         .extra-space1 { display: block; height: 25px; }
