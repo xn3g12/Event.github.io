@@ -230,17 +230,13 @@
             <!--div class="initials">A<span class="symbol"></span>M</div-->
             <div class="initials">
             A
-            <svg width="50" height="50" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" style="vertical-align:middle;">
-    <path fill="white" d="M471.701,73.216c-54.585-46.521-136.223-38.963-186.947,13.1
-      L256,115.207l-28.754-28.891c-50.724-52.062-132.362-59.621-186.947-13.1
-      C7.889,117.061-10.04,190.59,21.703,251.446
-      c32.129,62.423,121.939,139.37,234.297,229.031
-      c112.357-89.661,202.167-166.608,234.297-229.031
-      C522.04,190.59,504.111,117.061,471.701,73.216z"/>
+            <svg width="40" height="50" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="vertical-align:middle;">
+    <path fill="white" d="M16 29s-13-9.4-13-17c0-4.7 3.8-8.5 8.5-8.5 
+      2.7 0 5 1.5 6.5 3.8 1.5-2.3 3.8-3.8 6.5-3.8 4.7 0 8.5 3.8 8.5 8.5 
+      0 7.6-13 17-13 17z"/>
       </svg>
       M
       </div>
-
     
             <div class="sub">Save the Date</div>
             <div class="sub">20/03/2026</div>
