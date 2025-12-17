@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> Einladung</title> <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Gulzar&family=Meie Script&family=Playfair+Display:wght@700&family=Great Vibes:wght@400;700&display=swap" rel="stylesheet">
     
     <style>
@@ -137,11 +138,8 @@
         justify-content: center;
         }
         .letter {
-        font-family: 'Great Vibes', cursive; /* kursive Schrift */
-        font-size: 90px;  /* etwas größer */
-        font-weight: bold;
-        text-transform: uppercase; /* Großbuchstaben */
-        letter-spacing: 15px;      /* etwas breiter */
+        font-family: 'Allura', cursive;
+        font-size: 90px;
         color: #fff;
         }
         .heart {
