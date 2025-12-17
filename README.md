@@ -232,13 +232,14 @@
             <!--div class="initials">A<span class="symbol"></span>M</div-->
             <div class="initials">
             A
-            <svg width="40" height="50" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="vertical-align:middle;">
-    <path fill="white" d="M16 29s-13-9.4-13-17c0-4.7 3.8-8.5 8.5-8.5 
-      2.7 0 5 1.5 6.5 3.8 1.5-2.3 3.8-3.8 6.5-3.8 4.7 0 8.5 3.8 8.5 8.5 
-      0 7.6-13 17-13 17z"/>
+            <svg width="40" height="40" viewBox="0 0 32 29.6" xmlns="http://www.w3.org/2000/svg" style="vertical-align:middle;">
+    <path fill="white" d="M23.6,0c-2.9,0-5.4,1.7-6.6,4.1C15.8,1.7,13.3,0,10.4,0C4.7,0,0,4.7,0,10.4
+      c0,6.2,5.3,11.3,13.3,18.4l2.7,2.3l2.7-2.3C26.7,21.7,32,16.6,32,10.4
+      C32,4.7,27.3,0,23.6,0z"/>
       </svg>
       M
       </div>
+
     
             <div class="sub">Save the Date</div>
             <div class="sub">20/03/2026</div>
