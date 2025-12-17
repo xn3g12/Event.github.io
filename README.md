@@ -131,11 +131,24 @@
             margin-top: 10px;
             color: #fff;
         }
-        .letter {
-        font-family: 'Great Vibes', cursive; /* hier die neue Schrift wählen */
-        font-size: 4rem;  /* passt sich der ursprünglichen Größe an */
+        .initials {
+        font-family: 'Playfair Display', serif; /* Standard für Buchstaben */
+        font-size: 80px;
         font-weight: bold;
+        letter-spacing: 10px;
         color: #fff;
+        display: inline-flex;
+        align-items: center; /* Herz vertikal zentrieren */
+        }
+        .letter {
+        font-family: 'Great Vibes', cursive; 
+        }
+        .heart {
+        width: 40px;    /* bleibt fix */
+        height: 40px;   /* bleibt fix */
+        vertical-align: middle; /* zentriert mit Buchstaben */
+        margin: 0 10px;
+        flex-shrink: 0; /* verhindert, dass Herz gestaucht wird */
         }
         /* Zusätzliche Abstände */
         .extra-space  { display: block; height: 40px; }
@@ -237,14 +250,14 @@
             <!--div class="initials">A<span class="symbol"></span>M</div-->
             <div class="initials">
             <span class="letter">A</span>
-            <svg width="40" height="40" viewBox="0 0 32 29.6" style="vertical-align:middle;">
+            <svg class="heart" width="40" height="40" viewBox="0 0 32 29.6">
     <path fill="white" d="M23.6,0c-2.9,0-5.4,1.7-6.6,4.1C15.8,1.7,13.3,0,10.4,0
       C4.7,0,0,4.7,0,10.4c0,6.2,5.3,11.3,13.3,18.4l2.7,2.3l2.7-2.3
       C26.7,21.7,32,16.6,32,10.4C32,4.7,27.3,0,23.6,0z"/>
       </svg>
-       <span class="letter">M</span>
+      <span class="letter">M</span>
       </div>
-    
+      
             <div class="sub">Save the Date</div>
             <div class="sub">20/03/2026</div>
         </section>
