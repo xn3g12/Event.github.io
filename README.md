@@ -1,12 +1,3 @@
-# 💍 Hochzeitseinladung – Ahmad & Mina
-
-Dieses Repository enthält den vollständigen HTML-, CSS- und JavaScript-Code
-für unsere Hochzeitseinladung.
-
----
-
-## 📄 Code (nur Anzeige, kein Rendering)
-
 ```html
 <title>Einladung</title>
 <style>
