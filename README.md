@@ -112,7 +112,7 @@
         margin: 20px auto; /* verkleinert den Abstand nach unten */
         text-align: center;
         position: relative;
-        top: -70px; /* verschiebt das Monogramm 50px nach oben */
+        top: -85px; /* verschiebt das Monogramm 50px nach oben */
         }
         .monogram .initials {
             font-family: 'Playfair Display', serif; /* AUSNAHME */
