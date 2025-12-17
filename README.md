@@ -131,20 +131,6 @@
             margin-top: 10px;
             color: #fff;
         }
-        .initials {
-        font-family: 'Playfair Display', serif;
-        font-size: 4rem; /* passt sich Bildschirm an */
-        font-weight: bold;
-        letter-spacing: 0.5rem;
-        color: #fff;
-        text-align: center;
-        }
-        .heart {
-        width: 1em;       /* passt sich Schriftgröße an */
-        height: 1em;
-        vertical-align: middle;
-        margin: 0 0.2em;  /* Abstand zu A und M */
-        }
         /* Zusätzliche Abstände */
         .extra-space  { display: block; height: 40px; }
         .extra-space1 { display: block; height: 25px; }
