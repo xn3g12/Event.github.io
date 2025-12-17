@@ -109,8 +109,10 @@
 
         /* Monogramm: Initialen „A ♥ M“ bleiben Playfair Display (Ausnahme) */
         .monogram {
-            margin: 60px auto;
-            text-align: center;
+        margin: 20px auto; /* verkleinert den Abstand nach unten */
+        text-align: center;
+        position: relative;
+        top: -50px; /* verschiebt das Monogramm 50px nach oben */
         }
         .monogram .initials {
             font-family: 'Playfair Display', serif; /* AUSNAHME */
