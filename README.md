@@ -121,15 +121,8 @@
         }
         .monogram .symbol {
             display: inline-block;
-             width: 50px;
-             height: 50px;
-            background-color: white;
-            -webkit-clip-path: polygon(
-        50% 0%, 61% 10%, 75% 25%, 50% 60%, 25% 25%, 39% 10%
-        );
-        clip-path: polygon(
-        50% 0%, 61% 10%, 75% 25%, 50% 60%, 25% 25%, 39% 10%
-        );
+            vertical-align: middle;
+             margin: 0 10px;
         }
         .monogram .names {
             font-size: 32px;
@@ -235,17 +228,18 @@
         <section class="monogram">
             <!--div class="initials">A<span class="symbol">♥</span>M</div-->
             <!--div class="initials">A<span class="symbol"></span>M</div-->
-            <div class="initials">A<span class="symbol">
-            <svg width="50" height="50" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5
-                   2 5.42 4.42 3 7.5 3
-                   9.24 3 10.91 3.81 12 5.09
-                   13.09 3.81 14.76 3 16.5 3
-                   19.58 3 22 5.42 22 8.5
-                   c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
-                   </svg>
-                   </span>M</div>
-
+           <div class="initials">
+           A
+           <span class="symbol">
+    <svg width="50" height="50" viewBox="0 0 32 29.6" xmlns="http://www.w3.org/2000/svg">
+      <path fill="white" d="M23.6,0c-2.9,0-5.4,1.7-6.6,4.1C15.8,1.7,13.3,0,10.4,0
+        C4.7,0,0,4.7,0,10.4c0,6.2,5.3,11.3,13.3,18.4l2.7,2.3l2.7-2.3C26.7,21.7,32,16.6,32,10.4
+        C32,4.7,27.3,0,23.6,0z"/>
+    </svg>
+    </span>
+    M
+    </div>
+    
             <div class="sub">Save the Date</div>
             <div class="sub">20/03/2026</div>
         </section>
