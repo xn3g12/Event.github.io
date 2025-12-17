@@ -120,9 +120,16 @@
             color: #fff;
         }
         .monogram .symbol {
-            font-size: 50px;
-            color: #fff;
-            margin: 0 10px;
+            display: inline-block;
+             width: 50px;
+             height: 50px;
+            background-color: white;
+            -webkit-clip-path: polygon(
+        50% 0%, 61% 10%, 75% 25%, 50% 60%, 25% 25%, 39% 10%
+        );
+        clip-path: polygon(
+        50% 0%, 61% 10%, 75% 25%, 50% 60%, 25% 25%, 39% 10%
+        );
         }
         .monogram .names {
             font-size: 32px;
@@ -226,7 +233,8 @@
 
     <section class="hero">
         <section class="monogram">
-            <div class="initials">A<span class="symbol">♥</span>M</div>
+            <!--div class="initials">A<span class="symbol">♥</span>M</div-->
+            <div class="initials">A<span class="symbol"></span>M</div>
             <div class="sub">Save the Date</div>
             <div class="sub">20/03/2026</div>
         </section>
