@@ -1,7 +1,6 @@
 ```html
 <title>Einladung</title>
 <style>
-    /* Globale Basis: überall Tangerine (außer gezielte Ausnahmen) */
     body {
         margin: 0;
         font-family: 'Great Vibes', cursive;
@@ -25,10 +24,10 @@
         animation: fadeIn 1.5s forwards;
     }
 
-    h1 { font-size: clamp(40px, 8vw, 64px); }
-    h2 { font-size: clamp(32px, 6vw, 48px); }
-    h3 { font-size: clamp(18px, 3.5vw, 22px); }
-    h4 { font-size: clamp(22px, 4vw, 28px); }
+    h1 { font-size: clamp(40px, 8vw, 64px); color: #444; }
+    h2 { font-size: clamp(32px, 6vw, 48px); color: #444; }
+    h3 { font-size: clamp(18px, 3.5vw, 22px); color: #333; }
+    h4 { font-size: clamp(22px, 4vw, 28px); color: #333; }
 
     h5 {
         text-align: center;
@@ -44,7 +43,22 @@
         font-family: 'Gulzar', serif;
         direction: rtl;
         unicode-bidi: isolate;
+        font-size: 22px;
         line-height: 1.8;
+    }
+
+    .hero {
+        height: 70vh;
+        background: url('hero.png') center/cover no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+
+    .map {
+        width: 100%;
+        border-radius: 8px;
     }
 
     @keyframes fadeIn {
@@ -53,7 +67,7 @@
 </style>
 
 <script>
-    document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function() {
         const elements = document.querySelectorAll('.animate-on-scroll');
         const observer = new IntersectionObserver(entries => {
             entries.forEach(entry => {
@@ -73,3 +87,17 @@
         <div class="sub">20/03/2026</div>
     </div>
 </section>
+
+<section class="intro">
+    <h5>Ahmad & Mina</h5>
+    <p>Liebe Familie und Freunde,</p>
+    <p>
+        Wir freuen uns sehr, euch am <strong>20. März 2026 um 16:00</strong>
+        Uhr zu unserer Hochzeit einzuladen.
+    </p>
+
+    <p class="persian-line">این یک خط فارسی با فونت گلزار است.</p>
+    <p class="persian-line">این یک خط فارسی دیگر با فونت گلزار است.</p>
+</section>
+
+<img src="map.png" alt="Karte zur Location" class="map">
