@@ -139,7 +139,7 @@
         }
         .letter {
         font-family: 'Allura', cursive;
-        font-size: 100px;
+        font-size: 150px;
         letter-spacing: 5px;
         color: #fff;
         }
